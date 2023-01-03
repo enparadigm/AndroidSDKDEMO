@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/login_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="Company Code">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/app_code_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="User Unique Id">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_unique_id_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="User Group Id">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_group_id_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="Name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="Mobile">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mobile_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="Email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/logged_in_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:hint="Presentation Name">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/presentation_name_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:hint="Input One">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/presentation_input_one_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:hint="Input Two">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/presentation_input_two_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/open_presentation_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="Open Presentation" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/open_home_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Open Home Page" />
+
+            <Button
+                android:id="@+id/open_launchpad_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Launchpad" />
+
+            <Button
+                android:id="@+id/mc_directory_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marketing Collateral" />
+
+            <Button
+                android:id="@+id/potd_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Poster of the day" />
+
+            <Button
+                android:id="@+id/dvc_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Digital visiting card" />
+
+            <Button
+                android:id="@+id/tc_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Timer challenge" />
+
+            <Button
+                android:id="@+id/sb_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sales bundle" />
+
+            <Button
+                android:id="@+id/ql_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quick links" />
+
+            <Button
+                android:id="@+id/profile_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile" />
+
+            <Button
+                android:id="@+id/logout_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</ScrollView>

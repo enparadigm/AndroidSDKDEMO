@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1023680186374",
+    "project_id": "sampleandroid-ac589",
+    "storage_bucket": "sampleandroid-ac589.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023680186374:android:f18d85e2c32eeafe901b87",
+        "android_client_info": {
+          "package_name": "com.sharpsell.demoapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023680186374-cf0jk197d0r3cvdqg279f4aifq0l9nf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABWcR4lx7eAm-VfaIaE4CUj5JDnggCPV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023680186374-cf0jk197d0r3cvdqg279f4aifq0l9nf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023680186374:android:32e74a77356ddafc901b87",
+        "android_client_info": {
+          "package_name": "com.sharpsell.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023680186374-cf0jk197d0r3cvdqg279f4aifq0l9nf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABWcR4lx7eAm-VfaIaE4CUj5JDnggCPV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023680186374-cf0jk197d0r3cvdqg279f4aifq0l9nf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
